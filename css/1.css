@@ -157,7 +157,13 @@
     display: inline-block;
     width: 25px;
     height: 20px;
-    background: url("../img/navIcon.png") no-repeat 0px -99px;
+    background: url("../img/navIcon.png") no-repeat 0px -100px;
+}
+.setting  .messageAll2{
+    background-position: 0px -120px;
+}
+.setting  .messageAll3{
+    background-position: 0px -142px;
 }
 /*信息提醒下拉菜单*/
 .setting div.messageSettingList {
@@ -174,7 +180,9 @@
     padding: 2px;
     box-shadow: 0px 2px 8px 1px rgba(0,0,0,0.2);
 }
-
+#settingOne:hover .messageSettingList1{
+    display: block;
+}
 .setting .messageSettingList ul li{
     position: static;
     float: none;
@@ -496,7 +504,7 @@ textarea {
 /*中间广告部分*/
 .ads {
     position: relative;
-    margin: 10px 0;
+    margin-top: 10px;
 }
 
 .ads .close {
@@ -520,6 +528,7 @@ textarea {
 /*中间小导航*/
 .contentNav{
     position: relative;
+    margin-top: 10px;
     width: 100%;
     background: #fff;
     height: 38px;
@@ -592,6 +601,7 @@ textarea {
     border: 8px solid rgb(255,248,191);
     border-color:transparent transparent  rgb(255,248,191) transparent;
 }
+
 
 /*右侧*/
 /*右侧个人信息部分*/
