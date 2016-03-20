@@ -2,6 +2,10 @@ var main = document.querySelector("#main");
 var oLis = document.querySelectorAll("#list>li");
 var winW = document.documentElement.clientWidth;
 var winH = document.documentElement.clientHeight;
+var page1One=document.querySelector(".page1One");
+window.onload=function(){
+    page1One.id="a1";
+};
 var desW = 640;
 var desH = 960;
 if (winW / winH < desW / desH) {//按照高度比例去缩放
