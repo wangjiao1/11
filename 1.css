@@ -326,14 +326,38 @@ line-height: 75px;
     }
 }
 .page2One span{
-    transform: translate(-1000,0);
-    -webkit-transform: translate(-1000,0);
+    transform: translate(-1000px,0);
+    -webkit-transform: translate(-1000px,0);
 }
-#a2 span{
+#a2 span:nth-of-type(1){
     transform: translate(0,0);
     -webkit-transform: translate(0,0);
-    -webkit-transition:transform 3s ease-in;
-    transition:transform 3s ease-in;
+    -webkit-transition:transform 0.5s ease-in;
+    transition:transform 0.5s ease-in;
+}
+#a2 span:nth-of-type(2){
+    transform: translate(0,0);
+    -webkit-transform: translate(0,0);
+    -webkit-transition:transform 0.5s ease-in 0.5s;
+    transition:transform 0.5s ease-in 0.5s;
+}
+#a2 span:nth-of-type(3){
+    transform: translate(0,0);
+    -webkit-transform: translate(0,0);
+    -webkit-transition:transform 0.5s ease-in 1s;
+    transition:transform 0.5s ease-in 1s;
+}
+#a2 span:nth-of-type(4){
+    transform: translate(0,0);
+    -webkit-transform: translate(0,0);
+    -webkit-transition:transform 0.5s ease-in 1.5s;
+    transition:transform 0.5s ease-in 1.5s;
+}
+#a2 span:nth-of-type(5){
+    transform: translate(0,0);
+    -webkit-transform: translate(0,0);
+    -webkit-transition:transform 0.5s ease-in 2s;
+    transition:transform 0.5s ease-in 2s;
 }
 #a2{
     position: absolute;
@@ -379,16 +403,11 @@ line-height: 75px;
 }
 
 
-
-
-
-
 #a2 p {
     -webkit-transform: rotate(720deg);
     transform: rotate(720deg);
     -webkit-transition: 1s;
     transition: 1s;
-
 }
 
 #a3{
@@ -492,24 +511,14 @@ line-height: 75px;
     background: #371e51;
     transform: rotate(-21deg);
 }
-.a3{
-    width: 460px;
-    height: 222px;
-    position: absolute;
-    left:50%;
-    margin-left: -230px;
-    bottom:10%;
-    background: url(images/d1.png) no-repeat;
-    /*transform-style: preserve-3d;*/
-    /*-webkit-transform-style: preserve-3d;*/
-    /*perspective: 800px;*/
-}
+
 #a3{
     -webkit-transform: rotateY(720deg);
     transform: rotateY(720deg);
     -webkit-transition: 2s;
     transition: 2s;
 }
+#a3
 .a4 p{
     width: 0;
     height: 0;
